@@ -1,0 +1,244 @@
+/* CSS Reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar */
+
+#navbar {
+    /* border: 5px solid black; */
+    /* height: 65px; */
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    font-family: 'Laila', sans-serif;
+}
+
+#navbar::before {
+    content: "";
+    background-color: #0f1352;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#navbar ul {
+    /* border: 2px solid blue; */
+    display: flex;
+}
+
+#navbar ul div{
+    /* border: 2px solid blue; */
+    display: flex;
+}
+
+#navbar ul li {
+    /* border: 2px solid yellow; */
+    list-style-type: none;
+    /* margin: 20px; */
+    padding: 10px 60px;
+}
+
+#navbar ul li a {
+    /* border: 2px solid rgb(19, 20, 19); */
+    color: white;
+    display: block;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#navbar ul li a:hover {
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+}
+
+/* Home section */
+
+#home{
+    background-image: url("../Images/pic7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.9; */
+}
+
+.nametemplate {
+    /* border: 2px solid rebeccapurple; */
+    border-radius: 40px;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.888);
+    padding: 30px;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: 25%;
+    /* position: absolute;
+    top: 22%;
+    left: 25%; */
+}
+
+.name {
+    /* border: 2px solid rebeccapurple; */
+    font-size: 700%;
+    font-family: 'Laila', sans-serif;
+    word-spacing: 5px;
+    letter-spacing: -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro {
+    /* border: 2px solid rebeccapurple; */
+    font-size: 150%;
+    margin-bottom: 10px;
+    font-family: 'Laila', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative;
+    left: 44px; */
+}
+
+.contact {
+    /* border: 2px solid black; */
+    position: relative;
+    right: 20px;
+    font-size: 125%;
+    font-family: 'Laila', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.logoos{
+    display: flex;
+}
+.logo img {
+    margin: 10px;
+    /* border: 2px solid red; */
+    max-width: 50px;
+}
+
+.introduction{
+    /* border: 2px solid black; */
+    margin-top: 15%;
+    display: flex
+    /* padding: 5%; */
+}
+
+.first {
+    /* border: 2px solid black; */
+    text-decoration: underline;
+    font-size: 2.4rem;
+    margin-bottom: 2%;
+}
+
+.shortintro {
+    /* border: 2px solid palegreen; */
+    font-family: 'Laila', sans-serif;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    /* position: absolute; 
+     top: 123%;
+    left: 28%; */
+}
+
+.me img {
+    border: 5px solid rgba(0, 0, 0, 0.5);
+    width: 150px;
+    border-radius: 500px;
+    margin-left: 50%;
+    margin-top: 40%;
+    /* position: absolute;
+    top: 118%;
+    left: 8%; */
+}
+
+.me img:hover {
+    width: 200px;
+    margin-left: 27%;
+    margin-top: 10%;
+    /* top: 115%;
+    left: 6.5%; */
+    transition-duration: 1.5s;
+}
+
+/* Contact Me section */
+.tools{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    font-family: 'Laila', sans-serif;
+    padding: 30px;
+    font-size: 150%;
+}
+
+.tools h2{
+    /* border: 2px solid red; */
+    text-decoration: underline;
+    margin: 0% 5% 0% 5%;
+}
+
+.tools a{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin: 0% 5% 0% 5%;
+}
+
+#contact{
+    position: relative;
+    /* left: 10%; */
+}
+
+.logoo{
+    margin-right: 10px;
+    margin-top: 10px;
+    max-width: 50px;
+}
+
+#insta{
+    position: relative;
+    /* left: 20%; */
+}
+#mail{
+    position: relative;
+    /* left: 30%; */
+}
+
+.tools a img{
+    width: 50px;
+}
+
+/* Footer section */
+.copyright{
+    /* border: 2px solid black; */
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Laila', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

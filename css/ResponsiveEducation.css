@@ -1,0 +1,43 @@
+@media (max-width:1025px){ 
+    .Hobby{
+        font-size: 1rem;
+    } 
+     #c{
+        font-size: 1rem;
+    }
+    th{
+        padding: 10px;
+    }
+    td{
+        padding: 10px;
+    }
+}  
+@media (max-width:770px){ 
+    .Hobby{
+        font-size: 0.8rem;
+    } 
+     #c{
+        font-size: 0.8rem;
+    }
+    th{
+        padding: 10px;
+    }
+    td{
+        padding: 10px;
+    }
+}  
+@media (max-width:425px){ 
+    .Hobby{
+        font-size: 0.6rem;
+    } 
+     #c{
+        font-size: 0.6rem;
+        border-radius: 20px;
+    }
+    th{
+        padding: 7px;
+    }
+    td{
+        padding: 7px;
+    }
+}  

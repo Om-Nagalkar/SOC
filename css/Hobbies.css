@@ -1,0 +1,213 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Background */
+
+#background{
+    background-image: url("../Images/abstract1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Navbar */
+
+#navbar {
+    /* border: 5px solid black; */
+    /* height: 65px; */
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    font-family: 'Laila', sans-serif;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black ;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#navbar ul {
+    /* border: 2px solid blue; */
+    display: flex;
+}
+#navbar ul div{
+    /* border: 2px solid blue; */
+    display: flex;
+}
+
+#navbar ul li {
+    /* border: 2px solid yellow; */
+    list-style-type: none;
+    /* margin: 20px; */
+    padding: 10px 60px;
+}
+
+#navbar ul li a {
+    /* border: 2px solid rgb(19, 20, 19); */
+    color: white;
+    display: block;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#navbar ul li a:hover {
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+}
+
+/* Hobbies Section */
+.hobby{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.hobby h1{
+    font-size: 3rem;
+    font-family: 'Laila', sans-serif;
+}
+
+.hobby ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobby ul li{
+    /* border: 2px solid red; */
+    padding: 20px;
+    list-style-type: none;
+    font-size: 2.5rem;
+    font-family: 'Laila', sans-serif;
+}
+
+.hobby ul li div{
+    text-decoration: none;
+    color: black;
+}
+.hobby ul li div:hover{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 500px;
+    padding: 0px 30px;
+}
+
+.hobbies{
+    /* border:  2px solid black; */
+    color: black;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-family: 'Laila', sans-serif;
+    /* border:  2px solid black; */
+    border-radius: 25px;
+    padding: 35px;
+}
+
+#music{
+    background-image: url("../Images/piano.jpg");
+    background-repeat: no-repeat;
+    display: none;
+    background-size: cover;
+    box-shadow: 5px  5px 3px rgba(0, 0, 0, 0.6);
+}
+
+#reading{
+    display: none;
+    background-image: url("../Images/books4.avif");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    box-shadow: 5px  5px 3px rgba(0, 0, 0, 0.6);
+}
+
+#travel{
+    display: none;
+    background-image: url("../Images/travel2.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    box-shadow: 5px  5px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* Contact Me section */
+.tools{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    font-family: 'Laila', sans-serif;
+    padding: 30px;
+    font-size: 150%;
+}
+
+.tools h2{
+    /* border: 2px solid red; */
+    text-decoration: underline;
+    margin: 0% 5% 0% 5%;
+}
+
+.tools a{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin: 0% 5% 0% 5%;
+}
+
+#contact{
+    position: relative;
+    /* left: 10%; */
+}
+
+.logo{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#insta{
+    position: relative;
+    /* left: 20%; */
+}
+#mail{
+    position: relative;
+    /* left: 30%; */
+}
+
+.tools a img{
+    width: 50px;
+}
+
+/* Footer section */
+.copyright{
+    /* border: 2px solid black; */
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Laila', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

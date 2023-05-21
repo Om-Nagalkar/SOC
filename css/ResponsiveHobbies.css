@@ -1,0 +1,62 @@
+@media (max-width:1025px){
+    .hobby h1{
+        font-size: 2.5rem;
+    }
+    .hobby ul li{
+        font-size: 2rem;
+    }
+    .hobbies{
+        font-size: 1.2rem;
+    }
+}
+@media (max-width:770px){
+    .hobby h1{
+        font-size: 2rem;
+    }
+    .hobby ul li{
+        font-size: 1.7rem;
+    }
+    .hobbies{
+        font-size: 1rem;
+    }
+}
+@media (max-width:430px){
+    .hobby h1{
+        font-size: 1.7rem;
+    }
+    .hobby ul li{
+        font-size: 1.3rem;
+    }
+    .hobbies{
+        font-size: 0.8rem;
+    }
+    #Travel{
+        font-size: 1.2rem;
+    }
+}
+@media (max-width:377px){
+    .hobby h1{
+        font-size: 1.5rem;
+    }
+    .hobby ul li{
+        font-size: 1.1rem;
+    }
+    .hobbies{
+        font-size: 0.7rem;
+    }
+}
+@media (max-width:321px){
+    .hobby h1{
+        font-size: 1.2rem;
+    }
+    .hobby ul li{
+        font-size: 1rem;
+    }
+    .hobbies{
+        font-size: 0.6rem;
+    }
+    #Travel{
+        font-size: 1rem;
+    }
+
+}

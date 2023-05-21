@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Laila&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/Contact.css">
+    <link rel="stylesheet" media="screen and (max-width:1290px)" href="../css/Responsive-navbar-contactme-copyright.css">
+    <link rel="stylesheet" media="screen and (max-width:1025px)" href="../css/ResponsiveContact.css">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <section class="Contact">
+        <nav id="navbar">
+            <ul>
+                <div class="small">
+                    <li class="item"><a href="../html/Home.html" id="item1">Home</a></li>
+                    <li class="item"><a href="../html/Hobbies.html">Hobbies</a></li>
+                </div>
+                <div class="small">
+                    <li class="item"><a href="../html/Education.html">Education</a></li>
+                    <li class="item"><a href="../html/Contact.html">Contact</a></li>
+                </div>           
+            </ul>
+        </nav>
+        <div class="title">
+            <h1>Feel free to reach out :</h1>
+        </div>
+        <form  name="myform" action="" onsubmit="return Validateform()">
+            <div class="itemm">
+                <label for="name">Name :</label>
+                <input type="text" name="myName" id="name" >
+            </div>
+            <div class="itemm">
+                <label for="email">Email:</label>
+                <input type="email" name="myEmail" id="email">
+            </div>
+            <div class="itemm">
+                <label for="subject">Subject :</label>
+                <input type="text" name="mySubject" id="subject">
+            </div>
+            <div class="itemm" id="mess">
+                <label for="message">Message :</label>
+                <textarea name="myMessage" id="message" cols="25" rows="10"></textarea>
+            </div>
+            <div class="itemmm">
+                <input type="submit" value="Send Message" id="submit" onclick="done()">
+            </div>
+        </form>
+    </section>
+    <section class="contactme">
+        <div class="tools">
+            <h2 id="contact">Contact Me at :</h2>
+            <a href="https://www.instagram.com/_omnagalkar_/" id="insta">
+                <div class="logo">
+                    <img src="../Images/instagram_logo-removebg-preview.png" alt="">
+                </div>
+                <div>
+                    _omnagalkar_
+                </div>
+            </a>
+            <a href="https://mail.google.com/" id="mail">
+                <div class="logo">
+                    <img src="../Images/gmail.png" alt="">
+                </div>
+                <div>
+                    omnagalkar1107@gmail.com
+                </div>
+            </a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="copyright">
+            Copyright © Om Nagalkar 2023
+        </div>
+    </footer>
+    <script src="../js/Contact.js"></script>
+</body>
+
+</html>

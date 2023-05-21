@@ -1,0 +1,213 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Background */
+.Contact{
+    background-image: url("../Images/bg4.jpg ");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 135vh;
+}
+
+/* Navbar */
+
+#navbar {
+    /* border: 5px solid black; */
+    /* height: 65px; */
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    font-family: 'Laila', sans-serif;
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+#navbar ul {
+    /* border: 2px solid blue; */
+    display: flex;
+}
+
+#navbar ul div{
+    /* border: 2px solid blue; */
+    display: flex;
+}
+
+#navbar ul li {
+    /* border: 2px solid yellow; */
+    list-style-type: none;
+    /* margin: 20px; */
+    padding: 10px 60px;
+}
+
+#navbar ul li a {
+    /* border: 2px solid rgb(19, 20, 19); */
+    color: white;
+    display: block;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#navbar ul li a:hover {
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+}
+
+/* Form Section */
+
+.title h1{
+    /* border: 2px solid red; */
+    display: flex;
+    /* position: absolute; */
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-size: 2.3rem;
+    font-family: 'Laila',sans-serif;
+    padding: 30px;
+}
+
+form{
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute; 
+    left: 35%;
+    border-radius: 20px;
+    /* padding: 50px; */
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0% 35%; */
+    /* margin-bottom: 5%; */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
+
+.itemm{
+    /* border: 2px solid red; */
+    padding: 30px;
+    font-size: 1.5rem;
+    font-family: 'Laila', sans-serif;
+}
+
+.itemm input{
+    /* border: 2px solid slateblue; */
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.itemm textarea{
+    border: 2px solid rgba(0, 0, 0, 0.7);
+    border-radius: 7px;
+    padding: 10px;
+    /* height: 90%; */
+}
+
+.itemmm{
+    /* border: 2px solid red; */
+     padding: 30px;
+}
+
+
+#mess{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit{
+    /* border: 2px solid red; */
+    background-color: rgb(255, 255, 255, 0.65);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-family: 'Laila', sans-serif;
+}
+
+#submit:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+/* Contact Me section */
+
+.tools{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    font-family: 'Laila', sans-serif;
+    padding: 30px;
+    font-size: 150%;
+}
+
+.tools h2{
+    text-decoration: underline;
+    margin: 0% 5% 0% 5%;
+
+}
+
+.tools a{
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    margin: 0% 5% 0% 5%;
+
+}
+
+#contact{
+    position: relative;
+    /* left: 10%; */
+}
+
+.logo{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#insta{
+    position: relative;
+    /* left: 20%; */
+}
+#mail{
+    position: relative;
+    /* left: 30%; */
+}
+
+.tools a img{
+    width: 50px;
+}
+
+/* Footer section */
+
+.copyright{
+    /* border: 2px solid black; */
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Laila', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

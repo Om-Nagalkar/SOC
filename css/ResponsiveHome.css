@@ -1,0 +1,289 @@
+@media (max-width:1355px) {
+    .name {
+        font-size: 600%;
+    }
+
+    .intro {
+        font-size: 140%;
+    }
+
+    .first {
+        font-size: 2.2rem;
+    }
+
+    .shortintro {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:1275px) {
+    .name {
+        font-size: 550%;
+    }
+
+    .intro {
+        font-size: 130%;
+    }
+
+    .contact {
+        font-size: 110%;
+    }
+
+    .logo img {
+        max-width: 45px;
+    }
+}
+
+@media (max-width:1190px) {
+    .intro {
+        font-size: 120%;
+    }
+}
+
+@media (max-width:1107px) {
+    .name {
+        font-size: 500%;
+    }
+
+    .intro {
+        font-size: 110%;
+    }
+
+    .contact {
+        font-size: 100%;
+    }
+
+    .first {
+        font-size: 2rem;
+    }
+
+    .shortintro {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:930px) {
+    .name {
+        font-size: 450%;
+    }
+
+    .intro {
+        font-size: 90%;
+    }
+
+    .contact {
+        font-size: 90%;
+    }
+
+    .logo img {
+        max-width: 40px;
+    }
+}
+
+
+@media (max-width:861px) {
+    .name {
+        font-size: 400%;
+    }
+
+    .intro {
+        font-size: 80%;
+    }
+
+    .contact {
+        font-size: 80%;
+    }
+
+    .first {
+        font-size: 1.8rem;
+    }
+
+    .shortintro {
+        font-size: 1.1rem;
+    }
+
+}
+
+@media (max-width:780px) {
+    .name {
+        font-size: 350%;
+    }
+
+    .intro {
+        font-size: 70%;
+    }
+
+    .contact {
+        font-size: 70%;
+    }
+
+    .logo img {
+        max-width: 30px;
+    }
+
+    .first {
+        font-size: 1.5rem;
+    }
+
+    .shortintro {
+        font-size: 0.9rem;
+    }
+
+    .me img {
+        margin-left: 40%;
+        margin-top: 30%;
+    }
+
+    .me img:hover{
+        width: 175px;
+    }
+}
+
+@media (max-width:640px) {
+    .name {
+        font-size: 270%;
+        letter-spacing: -5px;
+    }
+
+    .intro {
+        font-size: 55%;
+    }
+
+    .contact {
+        font-size: 50%;
+    }
+
+    .logo img {
+        max-width: 15px;
+        margin: 2px;
+    }
+
+}
+
+@media (max-width:547px) {
+    .name {
+        font-size: 220%;
+        letter-spacing: -3px;
+    }
+
+    .intro {
+        font-size: 45%;
+    }
+
+    .contact {
+        font-size: 40%;
+    }
+
+    .logo img {
+        max-width: 10px;
+        margin: 2px;
+    }
+
+    .first {
+        font-size: 1.3rem;
+    }
+
+    .shortintro {
+        font-size: 0.8rem;
+    }
+
+    .me img {
+        width: 125px;
+        margin-left: 30%;
+        margin-top: 20%;
+    }
+
+    .me img:hover{
+        width: 145px;
+        margin-left: 15%;
+    }
+
+}
+
+@media (max-width:430px){
+    #navbar ul li a{
+        font-size: 1.3rem;
+    }
+    .name {
+        font-size: 180%;
+        letter-spacing: -3px;
+    }
+
+    .intro {
+        font-size: 35%;
+    }
+
+    .contact {
+        font-size: 30%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo img {
+        max-width: 8px;
+        margin: 2px;
+    }
+
+    
+    .first {
+        font-size: 1rem;
+    }
+
+    .shortintro {
+        font-size: 0.6rem;
+    }
+
+    .me img {
+        width: 100px;
+        margin-left: 30%;
+        margin-top: 20%;
+    }
+
+    .me img:hover{
+        width: 125px;
+        margin-left: 15%;
+    }
+
+
+}
+
+@media (max-width:380px){
+
+    #navbar ul li a{
+        font-size: 1rem;
+    }
+    .logoos {
+        flex-direction: column;
+    }
+    .name {
+        font-size: 120%;
+        letter-spacing: -1px;
+    }
+}
+@media (max-width:325px){
+
+    #navbar ul li a{
+        font-size: 1rem;
+    }
+
+    .name {
+        font-size: 100%;
+        letter-spacing: -1px;
+    }
+
+    .first {
+        font-size: 0.8rem;
+    }
+
+    .shortintro {
+        font-size: 0.5rem;
+    }
+
+    .me img {
+        width: 100px;
+        margin-left: 20%;
+        margin-top: 20%;
+    }
+}

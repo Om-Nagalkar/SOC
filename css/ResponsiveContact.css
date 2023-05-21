@@ -1,0 +1,82 @@
+@media (max-width:1025px) {
+
+    form{
+        left: 31%;
+    }
+
+    .Contact{
+        height: 150vh;
+    }
+}
+@media (max-width:770px) {
+    form{
+        left: 24%;
+    }
+    .Contact{
+        height: 160vh;
+    }
+}
+@media (max-width:427px) {
+
+    .Contact{
+        height: 170vh;
+    } 
+
+    .title h1{
+        font-size: 1.5rem;
+    }
+
+    form{
+        left: 8%;
+    }
+
+    .itemm{
+        font-size: 1.2rem;
+    }
+}
+@media (max-width:377px) {
+
+    .Contact{
+        height: 150vh;
+    } 
+
+    .title h1{
+        font-size: 1.5rem;
+    }
+
+    form{
+        left: 8%;
+    }
+
+    .itemm{
+        font-size: 1rem;
+        padding: 15px;
+    }
+}
+@media (max-width:321px) {
+
+    .Contact{
+        height: 145vh;
+    } 
+
+    .title h1{
+        font-size: 1.5rem;
+    }
+
+    form{
+        left: 1%;
+    }
+
+    .itemm{
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    .itemm input{
+        padding: 5px;
+    }
+
+    #submit{
+        font-size: 1rem;
+    }
+}
